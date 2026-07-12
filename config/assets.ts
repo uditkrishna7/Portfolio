@@ -1,4 +1,4 @@
-export const profileImage = '/images/profile/profile.png';
+export const profileImage = '/images/profile/profile.jpeg';
 export const heroIllustration = '/illustrations/hero-character.png';
 
 export const backgroundAssets = {
