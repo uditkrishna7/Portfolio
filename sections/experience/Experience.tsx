@@ -1,0 +1,38 @@
+import { experience } from '@/content/experience';
+import { Container } from '@/components/ui/Container';
+import { Heading } from '@/components/ui/Heading';
+import { Card } from '@/components/ui/Card';
+import { Timeline } from '@/components/ui/Timeline';
+
+export function Experience() {
+  return (
+    <section id="experience" className="border-b border-slate-200 py-24">
+      <Container>
+        <Heading as="h2" className="mb-10 text-3xl sm:text-4xl">
+          Experience
+        </Heading>
+        <Timeline>
+          {experience.map((item) => (
+            <div key={item.company} className="relative pl-8">
+              <div className="absolute left-0 top-2 h-3 w-3 rounded-full border-2 border-slate-900 bg-white" />
+              <Card className="space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <h3 className="text-xl font-semibold text-slate-900">{item.role}</h3>
+                    <p className="text-slate-600">{item.company}</p>
+                  </div>
+                  <span className="text-sm font-medium uppercase tracking-[0.2em] text-slate-500">{item.period}</span>
+                </div>
+                <ul className="list-disc space-y-2 pl-5 text-slate-600">
+                  {item.highlights.map((highlight) => (
+                    <li key={highlight}>{highlight}</li>
+                  ))}
+                </ul>
+              </Card>
+            </div>
+          ))}
+        </Timeline>
+      </Container>
+    </section>
+  );
+}
