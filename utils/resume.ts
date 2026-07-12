@@ -1,4 +1,4 @@
-export const resumeAssetPath = '/resume/Udit_Krishna_Resume.pdf';
+export const resumeAssetPath = '/resume/Uditkrishna_CV.pdf';
 
 export function getResumeHref() {
   return resumeAssetPath;
