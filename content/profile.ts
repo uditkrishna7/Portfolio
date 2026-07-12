@@ -1,10 +1,10 @@
 export const profile = {
   name: 'Udit Krishna',
-  title: 'Process Associate',
+  title: 'Content Management Professional | Software Engineer | AI & Automation Builder',
   location: 'India',
   summary:
-    'I build thoughtful digital experiences with a strong foundation in operations, content systems, and modern web technologies.',
-  tagline: 'Designing a future at the intersection of operations, automation, and AI.',
+    'I work at Genpact and am building a career at the intersection of operations, content systems, software development, and AI-driven automation.',
+  tagline: 'I am growing into content management while strengthening my foundation in software engineering, automation, and emerging AI workflows.',
   email: 'udit@example.com',
   resumeUrl: '/resume.pdf',
   socialLinks: {

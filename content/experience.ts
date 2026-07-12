@@ -5,9 +5,9 @@ export const experience = [
     period: 'Current',
     location: 'India',
     highlights: [
-      'Financial operations and customer operations support',
-      'Process documentation and compliance awareness',
-      'Stakeholder collaboration with strong accuracy standards'
+      'Working in a process-driven environment with a strong focus on accuracy, documentation, and workflow reliability.',
+      'Currently transitioning into the Content Management process and building familiarity with Adobe Experience Manager, CMS workflows, HTML, JavaScript, WordPress, and Google Analytics.',
+      'Developing a long-term path in content operations, systems thinking, and digital enablement.'
     ]
   },
   {
@@ -16,9 +16,9 @@ export const experience = [
     period: 'Previous',
     location: 'India',
     highlights: [
-      'Customer support and backend operational execution',
-      'Cross-functional coordination and service consistency',
-      'Operational discipline and process reliability'
+      'Handled SLA-driven customer service responsibilities with a strong focus on consistency and service quality.',
+      'Worked on documentation, workflow management, and backend operational support.',
+      'Strengthened collaboration, operational discipline, and customer operations experience.'
     ]
   }
 ];

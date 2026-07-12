@@ -1,11 +1,7 @@
 export const skills = {
-  programming: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python'],
-  webDevelopment: ['Next.js', 'React', 'Tailwind CSS', 'Responsive Design'],
-  automation: ['Automation Workflows', 'APIs', 'Process Design'],
-  ai: ['AI Concepts', 'Prompting', 'Automation Thinking'],
-  contentManagement: ['Adobe Experience Manager', 'WordPress', 'Content Systems'],
-  databases: ['Data Modeling', 'Structured Content'],
-  frameworks: ['Django', 'Node.js'],
-  tools: ['Git', 'Google Analytics', 'Figma', 'Vercel'],
-  softSkills: ['Problem Solving', 'Systems Thinking', 'Discipline', 'Learning']
+  programming: ['Python', 'Java', 'JavaScript', 'C#', 'C++'],
+  frameworks: ['Django', 'ASP.NET', 'React', 'TensorFlow', 'Scikit-learn'],
+  contentManagement: ['Adobe Experience Manager (Learning)', 'CMS', 'HTML5', 'CSS3', 'WordPress', 'Google Analytics (Learning)'],
+  databases: ['SQL', 'SQLite'],
+  professional: ['Agile', 'Documentation', 'Business Analysis', 'Workflow Management', 'Cross-functional Collaboration']
 };

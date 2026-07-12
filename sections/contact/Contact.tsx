@@ -16,13 +16,13 @@ export function Contact() {
         </Heading>
         <Card className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="space-y-4">
-            <p className="text-lg leading-8 text-slate-700">
+            <p className="text-lg leading-8 text-slate-300">
               I’m interested in thoughtful opportunities and meaningful collaborations in operations, content systems, web development, and emerging AI work.
             </p>
-            <ul className="space-y-2 text-slate-600">
+            <ul className="space-y-2 text-slate-400">
               {socialLinks.map((item) => (
                 <li key={item.label}>
-                  <a href={item.href} className="text-slate-900 underline decoration-slate-300 underline-offset-4">
+                  <a href={item.href} className="text-slate-100 underline decoration-slate-500 underline-offset-4">
                     {item.label}
                   </a>
                 </li>

@@ -9,8 +9,8 @@ export function Modal({ children, open = false }: ModalProps) {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 p-6">
-      <div className="w-full max-w-lg rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">{children}</div>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#0A0A0A]/80 p-6">
+      <div className="w-full max-w-lg rounded-2xl border border-white/10 bg-[#111827] p-6 shadow-xl">{children}</div>
     </div>
   );
 }

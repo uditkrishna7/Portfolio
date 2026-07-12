@@ -1,12 +1,17 @@
 export const certifications = [
   {
-    title: 'Web Development Foundations',
-    issuer: 'Self-directed learning',
-    year: '2026'
+    title: 'Google Analytics',
+    issuer: 'Learning path',
+    year: 'Current'
   },
   {
-    title: 'Google Analytics Essentials',
-    issuer: 'Learning path',
-    year: '2026'
+    title: 'Adobe Experience Manager (AEM) Learning',
+    issuer: 'Professional development',
+    year: 'Current'
+  },
+  {
+    title: 'WordPress Learning',
+    issuer: 'Professional development',
+    year: 'Current'
   }
 ];

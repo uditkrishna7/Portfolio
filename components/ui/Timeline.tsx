@@ -5,5 +5,5 @@ type TimelineProps = {
 };
 
 export function Timeline({ children }: TimelineProps) {
-  return <div className="relative space-y-8 before:absolute before:left-3 before:top-0 before:h-full before:w-px before:bg-slate-200">{children}</div>;
+  return <div className="relative space-y-8 before:absolute before:left-3 before:top-0 before:h-full before:w-px before:bg-white/10">{children}</div>;
 }

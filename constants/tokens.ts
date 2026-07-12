@@ -33,11 +33,13 @@ export const typography = {
 };
 
 export const colors = {
-  background: '#FFFFFF',
-  foreground: '#0F172A',
-  muted: '#64748B',
-  accent: '#2563EB',
-  border: '#E2E8F0',
-  darkBackground: '#020617',
+  background: '#0A0A0A',
+  foreground: '#F8FAFC',
+  secondary: '#CBD5E1',
+  muted: '#94A3B8',
+  accent: '#60A5FA',
+  border: 'rgba(255,255,255,0.08)',
+  card: '#111827',
+  darkBackground: '#0A0A0A',
   darkForeground: '#F8FAFC'
 };
