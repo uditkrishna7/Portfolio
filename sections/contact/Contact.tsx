@@ -6,10 +6,11 @@ import { Card } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { TextArea } from '@/components/ui/TextArea';
 import { Button } from '@/components/ui/Button';
+import { AnimatedSection } from '@/components/motion/AnimatedSection';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24">
+    <AnimatedSection id="contact" className="py-24">
       <Container>
         <Heading as="h2" className="mb-10 text-3xl sm:text-4xl">
           Contact
@@ -37,6 +38,6 @@ export function Contact() {
           </div>
         </Card>
       </Container>
-    </section>
+    </AnimatedSection>
   );
 }

@@ -1,8 +1,11 @@
+import { certificateImages } from '@/config/assets';
+
 export const certifications = [
   {
     title: 'Google Analytics',
     issuer: 'Learning path',
-    year: 'Current'
+    year: 'Current',
+    imageSrc: certificateImages.cert1
   },
   {
     title: 'Adobe Experience Manager (AEM) Learning',
@@ -12,6 +15,7 @@ export const certifications = [
   {
     title: 'WordPress Learning',
     issuer: 'Professional development',
-    year: 'Current'
+    year: 'Current',
+    imageSrc: certificateImages.cert2
   }
 ];

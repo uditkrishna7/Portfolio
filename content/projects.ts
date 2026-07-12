@@ -1,3 +1,5 @@
+import { projectImages } from '@/config/assets';
+
 export const projects = [
   {
     title: 'NeuroScan',
@@ -9,7 +11,8 @@ export const projects = [
     challenges: 'Understanding model behavior and balancing experimentation with clarity in the implementation.',
     lessons: 'Machine learning projects require strong fundamentals, iteration, and disciplined experimentation.',
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    liveUrl: 'https://example.com',
+    imageSrc: projectImages.project1
   },
   {
     title: 'Shree Radha Krishna Enterprises',
@@ -21,7 +24,8 @@ export const projects = [
     challenges: 'Designing a simple but polished experience while keeping the implementation maintainable.',
     lessons: 'Practical web development is often about clarity, reliability, and user experience.',
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    liveUrl: 'https://example.com',
+    imageSrc: projectImages.project2
   },
   {
     title: 'Beadz Store',
@@ -33,6 +37,7 @@ export const projects = [
     challenges: 'Balancing functional requirements with a clean and intuitive interface.',
     lessons: 'A strong foundation in web architecture helps create reliable user-facing products.',
     githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    liveUrl: 'https://example.com',
+    imageSrc: projectImages.project3
   }
 ];

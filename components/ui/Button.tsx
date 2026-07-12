@@ -14,7 +14,7 @@ export function Button({ children, variant = 'primary', className = '' }: Button
   };
 
   return (
-    <button className={`inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-medium transition duration-200 ${variants[variant]} ${className}`}>
+    <button className={`inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-medium transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60 ${variants[variant]} ${className}`}>
       {children}
     </button>
   );

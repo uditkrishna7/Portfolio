@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Background grid placeholder">
+  <rect width="1200" height="800" fill="#020617" />
+  <path d="M0 0H1200V800H0z" fill="none" stroke="#1e293b" stroke-width="1" />
+  <path d="M120 0V800M360 0V800M600 0V800M840 0V800M1080 0V800" stroke="#1e293b" stroke-width="1" />
+  <path d="M0 120H1200M0 360H1200M0 600H1200M0 760H1200" stroke="#1e293b" stroke-width="1" />
+</svg>

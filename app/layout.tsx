@@ -3,6 +3,9 @@ import '@/styles/globals.css';
 import { siteConfig } from '@/config/site';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { MotionShell } from '@/components/motion/MotionShell';
+import { CursorGlow } from '@/components/motion/CursorGlow';
+import { ScrollProgress } from '@/components/motion/ScrollProgress';
 
 export const metadata: Metadata = {
   title: siteConfig.title,
@@ -26,8 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="bg-[#0A0A0A] text-slate-100">
+        <ScrollProgress />
+        <CursorGlow />
         <Header />
-        {children}
+        <MotionShell>{children}</MotionShell>
         <Footer />
       </body>
     </html>

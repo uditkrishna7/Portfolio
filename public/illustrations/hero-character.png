@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-label="Hero placeholder illustration">
+  <rect width="640" height="760" rx="40" fill="#020617" />
+  <circle cx="300" cy="260" r="180" fill="#0f766e" fill-opacity="0.35" />
+  <circle cx="470" cy="190" r="120" fill="#38bdf8" fill-opacity="0.28" />
+  <rect x="180" y="200" width="280" height="320" rx="42" fill="#111827" stroke="#38bdf8" stroke-opacity="0.4" />
+  <circle cx="320" cy="295" r="86" fill="#f8fafc" fill-opacity="0.95" />
+  <path d="M236 482c24-80 84-120 84-120s60 40 84 120" fill="#38bdf8" fill-opacity="0.82" />
+  <path d="M260 322c18-32 44-48 60-48 22 0 48 16 60 48" stroke="#0f172a" stroke-width="12" stroke-linecap="round" fill="none" />
+  <rect x="264" y="384" width="112" height="18" rx="9" fill="#e2e8f0" />
+  <rect x="250" y="416" width="140" height="16" rx="8" fill="#cbd5e1" />
+</svg>
