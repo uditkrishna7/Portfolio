@@ -32,7 +32,7 @@ const achievements = [
 
 export function Achievements() {
   return (
-    <AnimatedSection className="border-b border-white/10 py-24">
+    <AnimatedSection className="border-b border-white/10 py-16 sm:py-20 lg:py-24">
       <Container>
         <div className="mb-10 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
           <div>

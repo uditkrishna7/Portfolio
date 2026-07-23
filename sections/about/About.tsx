@@ -9,13 +9,13 @@ import { Sparkles, Workflow, BrainCircuit } from 'lucide-react';
 
 export function About() {
   return (
-    <AnimatedSection id="about" className="border-b border-white/10 py-24">
+    <AnimatedSection id="about" className="border-b border-white/10 py-16 sm:py-20 lg:py-24">
       <Container className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
         <div className="space-y-6">
           <Heading as="h2" className="text-3xl sm:text-4xl">
             About
           </Heading>
-          <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-950/80 p-3 shadow-[0_20px_80px_rgba(2,6,23,0.28)]">
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-950/80 p-2 shadow-[0_20px_80px_rgba(2,6,23,0.28)] sm:p-3">
             <AssetImage
               src={profileImage}
               alt="Profile portrait"

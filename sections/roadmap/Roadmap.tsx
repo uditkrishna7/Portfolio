@@ -6,7 +6,7 @@ import { AnimatedSection } from '@/components/motion/AnimatedSection';
 
 export function Roadmap() {
   return (
-    <AnimatedSection className="border-b border-white/10 py-24">
+    <AnimatedSection className="border-b border-white/10 py-16 sm:py-20 lg:py-24">
       <Container>
         <Heading as="h2" className="mb-10 text-3xl sm:text-4xl">
           Roadmap

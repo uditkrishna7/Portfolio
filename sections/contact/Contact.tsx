@@ -10,7 +10,7 @@ import { AnimatedSection } from '@/components/motion/AnimatedSection';
 
 export function Contact() {
   return (
-    <AnimatedSection id="contact" className="py-24">
+    <AnimatedSection id="contact" className="py-16 sm:py-20 lg:py-24">
       <Container>
         <Heading as="h2" className="mb-10 text-3xl sm:text-4xl">
           Contact
@@ -23,7 +23,7 @@ export function Contact() {
             <ul className="space-y-2 text-slate-400">
               {socialLinks.map((item) => (
                 <li key={item.label}>
-                  <a href={item.href} className="text-slate-100 underline decoration-slate-500 underline-offset-4">
+                  <a href={item.href} className="inline-flex min-h-[44px] items-center text-slate-100 underline decoration-slate-500 underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60">
                     {item.label}
                   </a>
                 </li>

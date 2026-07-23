@@ -16,7 +16,7 @@ export function Hero() {
   const opacity = useTransform(scrollY, [0, 220], [1, 0.6]);
 
   return (
-    <section className="relative overflow-hidden border-b border-white/10 py-24 sm:py-32">
+    <section className="relative overflow-hidden border-b border-white/10 py-16 sm:py-24 lg:py-32">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute inset-0 opacity-70" style={{ backgroundImage: `url(${backgroundTexture})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
         <div className="absolute inset-0 opacity-30" style={{ backgroundImage: `url(${noiseTexture})`, backgroundSize: '140px 140px', mixBlendMode: 'soft-light' }} />
@@ -26,18 +26,18 @@ export function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(96,165,250,0.13),transparent_32%)]" />
         <div className="absolute inset-0 opacity-60" style={{ backgroundImage: `url(${gradientBlobsTexture})`, backgroundSize: 'cover', filter: 'blur(20px)' }} />
       </div>
-      <Container className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-        <motion.div style={{ y, opacity }} className="space-y-8">
+      <Container className="grid gap-8 sm:gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+        <motion.div style={{ y, opacity }} className="space-y-6 sm:space-y-8">
           <Badge>Digital Headquarters</Badge>
           <div className="space-y-4">
-            <h1 className="max-w-3xl bg-gradient-to-r from-slate-50 via-slate-200 to-sky-400 bg-clip-text text-4xl font-semibold tracking-tight text-transparent sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-3xl bg-gradient-to-r from-slate-50 via-slate-200 to-sky-400 bg-clip-text text-3xl font-semibold tracking-tight text-transparent sm:text-4xl lg:text-6xl">
               Building a thoughtful future in operations, automation, and AI.
             </h1>
-            <p className="max-w-2xl text-lg leading-8 text-slate-300">
+            <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
               {profile.summary}
             </p>
           </div>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a href={getResumeHref()} target="_blank" rel="noreferrer" className="inline-flex">
               <Button>Download Resume</Button>
             </a>
